@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!-- Thymeleaf를 사용하기 위해선 xml namespace를 사용해야 한다 -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuck Norris Jokes</title>
+</head>
+<body>
+    <h1>Chuck Norris Joke</h1>
+    <p th:text="${joke}">Show joke here...</p>
+</body>
+</html>
