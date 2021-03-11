@@ -9,6 +9,7 @@ public class JokeServiceImpl implements JokeService {
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
     // DI through Constructor
+    // 외부 jar로 가져온 클래스를 Autowire  하는 방법이 따로 있는데 여기선 일단 생략..
     public JokeServiceImpl() {
         this.chuckNorrisQuotes = new ChuckNorrisQuotes();
     }
